@@ -7,5 +7,5 @@ Bigenners trial and errors
 <body>
 <p>~
 
-<img src="pic_yanna.jpg"
-alt="facebook yanna">
+<img src="pic_trulli.jpg"
+alt="italian trulli">
