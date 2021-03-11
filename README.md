@@ -12,22 +12,27 @@ alt="italian trulli">
 
 💡 Learn Cypress Patterns, Best Practices, and more to share with your team
 
-Get Started
+# Get Started
 
-Cypress
+# Cypress
  
-Search...
+# Search...
 
-viewport
-Control the size and orientation of the screen for your application.
+# viewport
 
-You can set the viewport’s width and height globally by defining viewportWidth and viewportHeight in the configuration.
+# Control the size and orientation of the screen for your application.
 
-Syntax
-cy.viewport(width, height)
-cy.viewport(preset, orientation)
-cy.viewport(width, height, options)
-cy.viewport(preset, orientation, options)
+# You can set the viewport’s width and height globally by defining viewportWidth and viewportHeight in the configuration.
+
+$ 'Syntax'
+
+# cy.viewport(width, height)
+
+# cy.viewport(preset, orientation)
+
+# cy.viewport(width, height, options)
+
+# [cy.viewport](preset, orientation, options)
 Usage
  Correct Usage
 
