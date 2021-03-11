@@ -26,30 +26,32 @@ alt="italian trulli">
 
 $ 'Syntax'
 
-# cy.viewport(width, height)
+# cy.viewport (width, height)
 
-# cy.viewport(preset, orientation)
+# cy.viewport (preset, orientation)
 
-# cy.viewport(width, height, options)
+# cy.viewport (width, height, options)
 
-# [cy.viewport](preset, orientation, options)
-Usage
- Correct Usage
+# cy.viewport(preset, orientation, options)
+
+-$ Usage
+
+# Correct Usage
 
 cy.viewport(550, 750)    // Set viewport to 550px x 750px
 cy.viewport('iphone-6')  // Set viewport to 375px x 667px
 Arguments
  width (Number)
 
-Width of viewport in pixels (must be a non-negative, finite number).
+# Width of viewport in pixels (must be a non-negative, finite number).
 
  height (Number)
 
-Height of viewport in pixels (must be a non-negative, finite number).
+# Height of viewport in pixels (must be a non-negative, finite number).
 
  preset (String)
 
-A preset dimension to set the viewport. Preset supports the following options:
+# A preset dimension to set the viewport. Preset supports the following options:
 
 Preset	width	height
 ipad-2	768	1024
@@ -72,20 +74,23 @@ samsung-note9	414	846
 samsung-s10	360	760
  orientation (String)
 
-The orientation of the screen. The default orientation is portrait. Pass landscape as the orientation to reverse the width/height.
+# The orientation of the screen. The default orientation is portrait. Pass landscape as the orientation to reverse the width/height.
 
  options (Object)
 
-Pass in an options object to change the default behavior of cy.viewport().
+# Pass in an options object to change the default behavior of cy.viewport().
 
-Option	Default	Description
+# Option	Default	Description
+
 log	true	Displays the command in the Command log
-Yields 
+
+# Yields 
+
 cy.viewport() yields null.
 
 cy.viewport() cannot be chained further.
 
-Examples
+# Examples
 Width, Height
 Resize the viewport to 1024px x 768px
 cy.viewport(1024, 768)
